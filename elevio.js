@@ -34,4 +34,6 @@ const includeAppcues = () => {
 (function() {
   includeHotjar()
   includeSegment()
+  includeHeap()
+  includeAppcues()
 })()
