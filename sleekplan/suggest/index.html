@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AMPOS Suggestion</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+		<div id="suggestion-form" class="container">
+      <form action="https://submit-form.com/Z8zvaZiJ">
+        <legend><img src="/logo.png" alt="AMPOS" height="35" />Suggestion</legend>
+        <div class="mb-3">
+          <label for="topic" class="form-label">Topic</label>
+          <input class="form-control" placeholder="Suggestion Topic" id="topic" />
+        </div>
+        <div class="mb-3">
+          <label for="feedback" class="form-label">Please describe your suggestion here.</label>
+          <div class="form-control">
+            <div id="feedback" class="editable" aria-describedby="richtextHelp"></div>
+          </div>
+          <div id="richtextHelp" class="form-text">Try highlight your message to tell us more.</div>
+        </div>
+        <div class="mb-3">
+          <input
+            type="hidden"
+            id="attachment"
+            name="attachment"
+            role="uploadcare-uploader"
+            data-public-key="9c8fd4a207694ab6bfe8"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Feedback</button>
+      </form>
+		</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/medium-editor/5.23.3/js/medium-editor.min.js"></script>
+    <script src="https://unpkg.com/turndown/dist/turndown.js"></script>
+    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+		<script src="./script.js"></script>
+  </body>
+</html>
