@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@300;500&display=swap');
 body {
 	margin: 0;
-	background-color: eee;
+	background-color: #eee;
 	font-family: 'Inter', sans-serif;
 }
 #overview {
