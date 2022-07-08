@@ -16,3 +16,8 @@
 .elevioPopup button[title="Open in sidebar"] {
   display: none;
 }
+
+/* Hide Elevio by Dixa */
+.elevioPopup a[rel="nofollow"] {
+  visibility: hidden;
+}
