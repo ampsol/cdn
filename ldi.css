@@ -1,6 +1,13 @@
 ._elevio_widget, ._elevio_launcher {
 	display: none;
 }
+
+.elevioPopup {
+	border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 40%);
+}
+
 .elevioPopup button[title="Open in sidebar"] {
 	display: none;
 }
