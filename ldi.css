@@ -1,3 +1,6 @@
-._elevio_widget {
+._elevio_widget, ._elevio_launcher {
+	display: none;
+}
+.elevioPopup button[title="Open in sidebar"] {
 	display: none;
 }
