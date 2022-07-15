@@ -85,6 +85,14 @@ a.kb-category-card:nth-child(1) .kb-category-card__icon-wrapper::after, a.kb-cat
     border-radius: 8px;
 }
 
+
+/* Remove Hotjar Branding */
 div[class$="EmotionStep__EmotionFooterWithBranding"] {
   display: none;
+}
+
+button[class$="__ExpandedWidget__closeButton"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
