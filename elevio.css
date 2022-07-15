@@ -84,3 +84,7 @@ a.kb-category-card:nth-child(1) .kb-category-card__icon-wrapper::after, a.kb-cat
 .kb-content-body img {
     border-radius: 8px;
 }
+
+div[class$="EmotionStep__EmotionFooterWithBranding"] {
+  display: none;
+}
