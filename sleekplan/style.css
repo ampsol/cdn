@@ -109,6 +109,10 @@ a.add-suggestion:hover::after, a.add-suggestion.full::after {
 	transform: rotate(90deg);
 }
 
+._elevio_widget a[rel="nofollow"] {
+	visibility: hidden;
+}
+
 @keyframes extendwidth {
 	from {
 		width: 0;

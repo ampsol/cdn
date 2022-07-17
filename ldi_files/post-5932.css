@@ -1,0 +1,21 @@
+.elementor-5932 .elementor-element.elementor-element-2487a68:not(.elementor-motion-effects-element-type-background), .elementor-5932 .elementor-element.elementor-element-2487a68 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-0a3d79a );}.elementor-5932 .elementor-element.elementor-element-2487a68 > .elementor-background-overlay{background-image:url("https://www.amposgroup.com/wp-content/uploads/2021/11/Mask-Group.svg");background-position:bottom right;background-repeat:no-repeat;opacity:1;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-5932 .elementor-element.elementor-element-2487a68{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:113px 0px 70px 0px;}.elementor-5932 .elementor-element.elementor-element-2487a68 > .elementor-shape-top svg{width:calc(100% + 1.3px);height:25px;}.elementor-5932 .elementor-element.elementor-element-6e93f0a9{text-align:center;}.elementor-5932 .elementor-element.elementor-element-6e93f0a9 .elementor-heading-title{color:#0B3051;}.elementor-5932 .elementor-element.elementor-element-6e93f0a9 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-5932 .elementor-element.elementor-element-75456717{--grid-column-gap:22px;--grid-row-gap:35px;z-index:1;}.elementor-5932 .elementor-element.elementor-element-75456717 .elementor-swiper-button.elementor-swiper-button-prev{left:0px;}.elementor-5932 .elementor-element.elementor-element-75456717 .elementor-swiper-button.elementor-swiper-button-next{right:0px;}.elementor-5932 .elementor-element.elementor-element-75456717 .swiper-container{position:static;}.elementor-5932 .elementor-element.elementor-element-75456717 .swiper-pagination-bullet{width:10px;height:10px;background:var( --e-global-color-accent );}.elementor-5932 .elementor-element.elementor-element-75456717 > .elementor-widget-container{padding:30px 0px 030px 0px;}@media(max-width:1024px){.elementor-5932 .elementor-element.elementor-element-2487a68{margin-top:0px;margin-bottom:0px;padding:50px 20px 0px 20px;}.elementor-5932 .elementor-element.elementor-element-75456717 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}}@media(max-width:767px){.elementor-5932 .elementor-element.elementor-element-2487a68:not(.elementor-motion-effects-element-type-background), .elementor-5932 .elementor-element.elementor-element-2487a68 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://www.amposgroup.com/wp-content/uploads/2021/11/Rectangle-8.png");}.elementor-5932 .elementor-element.elementor-element-2487a68 > .elementor-background-overlay{background-image:url("https://www.amposgroup.com/wp-content/uploads/2021/10/Mask-Group.png");background-position:bottom right;background-size:55% auto;}.elementor-5932 .elementor-element.elementor-element-2487a68{margin-top:0px;margin-bottom:0px;padding:50px 20px 30px 20px;}}/* Start custom CSS for posts, class: .elementor-element-75456717 */.elementor-5932 .elementor-element.elementor-element-75456717 .swiper-container {
+    padding-bottom: 80px
+}
+.testimonial-custom article {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.elementor-5932 .elementor-element.elementor-element-75456717 .elementor-swiper-button {
+    padding: 0.2em;
+    border-radius: 0.4em;
+}
+.elementor-5932 .elementor-element.elementor-element-75456717 .elementor-swiper-button-prev {
+    left: -50px !important;
+}
+.elementor-5932 .elementor-element.elementor-element-75456717 .elementor-swiper-button-next {
+    right: -50px !important;
+}
+@media (max-width: 1024px) {
+    .elementor-5932 .elementor-element.elementor-element-75456717 .elementor-swiper-button {
+        display: none;
+    }
+}/* End custom CSS */

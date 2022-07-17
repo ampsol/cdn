@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+._elevio_widget, ._elevio_launcher {
+  display: none;
+}
+
+.elevioPopup {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 40%);
+}
+.elevioPopup > div > div > div > div {
+  font: 21px 'Poppins'!important;
+  line-height: 1!important;
+}
+.elevioPopup button[title="Open in sidebar"] {
+  display: none;
+}
+
+/* Hide Elevio by Dixa */
+.elevioPopup a[rel="nofollow"] {
+  visibility: hidden;
+}
