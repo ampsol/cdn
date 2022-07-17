@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cdn/lottery/static/css/main.fa691383.css",
-    "main.js": "/cdn/lottery/static/js/main.6365914c.js",
+    "main.js": "/cdn/lottery/static/js/main.3d229ea1.js",
     "static/js/787.c90eb3c1.chunk.js": "/cdn/lottery/static/js/787.c90eb3c1.chunk.js",
     "static/media/jingle.mp3": "/cdn/lottery/static/media/jingle.20f0c2f914daedd703e8.mp3",
     "static/media/sfx-lotto.mp3": "/cdn/lottery/static/media/sfx-lotto.f6d36d94c6da0f7ab96c.mp3",
@@ -19,11 +19,11 @@
     "static/media/IconFullscreenEnter.svg": "/cdn/lottery/static/media/IconFullscreenEnter.3101657e72d7d8699aadb5d4e82a461b.svg",
     "static/media/IconFullscreenExit.svg": "/cdn/lottery/static/media/IconFullscreenExit.98cc3c937b28c722351bbe1610139817.svg",
     "main.fa691383.css.map": "/cdn/lottery/static/css/main.fa691383.css.map",
-    "main.6365914c.js.map": "/cdn/lottery/static/js/main.6365914c.js.map",
+    "main.3d229ea1.js.map": "/cdn/lottery/static/js/main.3d229ea1.js.map",
     "787.c90eb3c1.chunk.js.map": "/cdn/lottery/static/js/787.c90eb3c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa691383.css",
-    "static/js/main.6365914c.js"
+    "static/js/main.3d229ea1.js"
   ]
 }
