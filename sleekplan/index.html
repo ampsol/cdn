@@ -10,11 +10,11 @@
   <body>
 		<div id="overview">
 			<h2>AMPOS Product Feedback</h2>
-      <p>Together we can create the better culture. Your feedback is matter here. Feel free to vote up and comment on the idea you love, or <a href="https://forms.gle/SAsx1DHtweTThRCq5" class="link-light">suggest an idea</a></p>
+      <p>Together we can create the better culture. Your feedback is matter here. Feel free to vote up and comment on the idea you love, or <a href="https://forms.gle/SAsx1DHtweTThRCq5" onclick="javascript:hideSuggest();" target="sleekplan" class="link-light">suggest an idea</a></p>
 			<button class="dismiss" onclick="javascript:dismissed()">[Dismiss]</button>
 		</div>
-		<div id="sleek"><iframe src="https://embed-624968033.sleekplan.app/" frameborder="0"></iframe></div>
-    <a id="suggest" href="https://forms.gle/SAsx1DHtweTThRCq5" class="add-suggestion"></a>
+		<div id="sleek"><iframe id="sleekplan" name="sleekplan" src="https://embed-624968033.sleekplan.app/" frameborder="0"></iframe></div>
+    <a id="suggest" href="https://forms.gle/SAsx1DHtweTThRCq5" target="sleekplan" onclick="javascript:hideSuggest();" class="add-suggestion"></a>
 		<script src="./script.js"></script>
   </body>
 </html>

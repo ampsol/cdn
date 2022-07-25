@@ -40,6 +40,9 @@ h1, h2, h3, h4, h5 {
 	height: 0;
 	padding: 0;
 	animation: fadeout .3s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
 }
 #sleek.dismissed {
 	height: 100vh;
@@ -107,6 +110,11 @@ a.add-suggestion:hover::before, a.add-suggestion.full::before {
 }
 a.add-suggestion:hover::after, a.add-suggestion.full::after {
 	transform: rotate(90deg);
+}
+a.add-suggestion.hide {
+	visibility: hidden;
+	opacity: 0;
+	z-index: -1;
 }
 
 ._elevio_widget a[rel="nofollow"] {
