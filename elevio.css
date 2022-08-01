@@ -119,3 +119,6 @@ button[class$="__ExpandedWidget__closeButton"] {
 ._hj_feedback_container ._hj-qoDG___EmotionIconDefault__iconEmotionDefault ._hj-3obO5__EmotionIconDefault__commentIcon:before, ._hj_feedback_container ._hj-qoDG___EmotionIconDefault__iconEmotionDefault ._hj-2RA7u__EmotionIconDefault__expressionIcon._hj-150gX__EmotionIconDefault__invert:before {
   background: var(--amp-color-branded)!important;
 }
+._hj_feedback_container ._hj-1qvel__Feedback__feedback, ._hj_feedback_container ._hj-1qvel__Feedback__feedback * {
+  font-family: var(--amp-font-family)!important;
+}
