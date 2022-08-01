@@ -4,20 +4,6 @@
   --amp-font-family: 'Sora', 'Noto Sans Thai', sans-serif!important;
   --amp-font-family-body: 'Sora', Thonburi, Tahoma, sans-serif;
   --amp-color-branded: #06B5B3;
-  --hjFeedbackAccentColor: #06B5B3;
-  --hjFeedbackAccentHoverColor: #06B5B3;
-  --hjFeedbackAccentActiveColor: #06B5B3;
-  --hjFeedbackAccentTextColor: #ffffff;
-  --hjFeedbackDisabledAccentColor: #F1F2F6;
-  --hjFeedbackDisabledAccentTextColor: rgba(0, 0, 0, 0.43);
-  --hjFeedbackSecondaryTextColor: #666666;
-  --hjFeedbackBackgroundColor: #ffffff;
-  --hjFeedbackDarkGray: #333333;
-  --hjFeedbackSelectionColor: #06B5B3;
-  --hjFeedbackSelectionTextColor: #3c3c3c;
-  --hjFeedbackBorderColor: #e6e6e6;
-  --hjFeedbackOptionButtonBackgroundColor: #e6e6e6;
-  --hjFeedbackInputPlaceholderColor: rgba(255,255,255,0.38);
 }
 h1, h2, h3, h4, h5, h6, ul.kb-sidebar__list, .kb-content-header__details, .kb-footer::after, .kb-nav__button, .kb-search__input, .kb-subcategories__articles-link, p.kb-home__description, kb-category-card__info, .kb-breadcrumbs__link {
   font-family: var(--amp-font-family);
@@ -126,4 +112,21 @@ button[class$="__ExpandedWidget__closeButton"] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#_hj_feedback_container {
+  --hjFeedbackAccentColor: var(--amp-color-branded)!important;
+  --hjFeedbackAccentHoverColor: var(--amp-color-branded)!important;
+  --hjFeedbackAccentActiveColor: var(--amp-color-branded)!important;
+  --hjFeedbackAccentTextColor: white!important;
+  --hjFeedbackDisabledAccentColor: #F1F2F6!important;
+  --hjFeedbackDisabledAccentTextColor: rgba(0, 0, 0, 0.43)!important;
+  --hjFeedbackSecondaryTextColor: #666666!important;
+  --hjFeedbackBackgroundColor: #ffffff!important;
+  --hjFeedbackDarkGray: #333333!important;
+  --hjFeedbackSelectionColor: var(--amp-color-branded)!important;
+  --hjFeedbackSelectionTextColor: #3c3c3c!important;
+  --hjFeedbackBorderColor: #e6e6e6!important;
+  --hjFeedbackOptionButtonBackgroundColor: #e6e6e6!important;
+  --hjFeedbackInputPlaceholderColor: rgba(255,255,255,0.38)!important;
 }
