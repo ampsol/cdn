@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600&family=Sora:wght@400;600&display=swap');
 h1, h2, h3, h4, h5, h6, ul.kb-sidebar__list, .kb-content-header__details, .kb-footer::after, .kb-nav__button, .kb-search__input, .kb-subcategories__articles-link, p.kb-home__description, kb-category-card__info, .kb-breadcrumbs__link {
-font-family: 'Poppins', 'Noto Sans Thai', sans-serif;
+  font-family: 'Sora', 'Noto Sans Thai', sans-serif;
 }
 body {
-font-family: 'Poppins', Thonburi, Tahoma, sans-serif;
+  font-family: 'Sora', Thonburi, Tahoma, sans-serif;
 }
 /*.kb-nav__details > hr, .kb-nav__details > .kb-nav__details-title {
   display: none;
 }*/
+._elevio_article_title {
+  font-family: 'Sora', 'Noto Sans Thai', sans-serif!important;
+}
 .kb-nav__details > hr {
   block-size: 1.7rem;
 }
