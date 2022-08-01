@@ -4,6 +4,20 @@
   --amp-font-family: 'Sora', 'Noto Sans Thai', sans-serif!important;
   --amp-font-family-body: 'Sora', Thonburi, Tahoma, sans-serif;
   --amp-color-branded: #06B5B3;
+  --hjFeedbackAccentColor: #06B5B3;
+  --hjFeedbackAccentHoverColor: #06B5B3;
+  --hjFeedbackAccentActiveColor: #06B5B3;
+  --hjFeedbackAccentTextColor: #ffffff;
+  --hjFeedbackDisabledAccentColor: #F1F2F6;
+  --hjFeedbackDisabledAccentTextColor: rgba(0, 0, 0, 0.43);
+  --hjFeedbackSecondaryTextColor: #666666;
+  --hjFeedbackBackgroundColor: #ffffff;
+  --hjFeedbackDarkGray: #333333;
+  --hjFeedbackSelectionColor: #06B5B3;
+  --hjFeedbackSelectionTextColor: #3c3c3c;
+  --hjFeedbackBorderColor: #e6e6e6;
+  --hjFeedbackOptionButtonBackgroundColor: #e6e6e6;
+  --hjFeedbackInputPlaceholderColor: rgba(255,255,255,0.38);
 }
 h1, h2, h3, h4, h5, h6, ul.kb-sidebar__list, .kb-content-header__details, .kb-footer::after, .kb-nav__button, .kb-search__input, .kb-subcategories__articles-link, p.kb-home__description, kb-category-card__info, .kb-breadcrumbs__link {
   font-family: var(--amp-font-family);
@@ -112,13 +126,4 @@ button[class$="__ExpandedWidget__closeButton"] {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-._hj-2NdsM__MinimizedWidgetBottom__close {
-  background: var(--amp-color-branded)!important;
-}
-._hj_feedback_container ._hj-qoDG___EmotionIconDefault__iconEmotionDefault ._hj-3obO5__EmotionIconDefault__commentIcon:before, ._hj_feedback_container ._hj-qoDG___EmotionIconDefault__iconEmotionDefault ._hj-2RA7u__EmotionIconDefault__expressionIcon._hj-150gX__EmotionIconDefault__invert:before {
-  background: var(--amp-color-branded)!important;
-}
-._hj_feedback_container ._hj-1qvel__Feedback__feedback, ._hj_feedback_container ._hj-1qvel__Feedback__feedback * {
-  font-family: var(--amp-font-family)!important;
 }
