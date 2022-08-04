@@ -13,6 +13,10 @@ body {
   font-family: var(--amp-font-family-body);
 }
 
+._elevio_relatedarticles_title, ._elevio_title {
+  font-family: var(--amp-font-family-body);
+}
+
 /* () => elevio button  */
 .article {
   --amp-color-gradient: linear-gradient(90deg, #557BC7,#48B2B2);
@@ -22,14 +26,14 @@ body {
   color: white;
   display: inline-flex;
   background: var(--amp-color-gradient);
-  padding: 4px 26px 4px 8px;
+  padding: 4px 30px 4px 8px;
   border-radius: 2px;
   position: relative;
   font-family: var(--amp-font-family);
 }
-.article a[data-elevio-article] *, ._elevio_article_body span[data-elevio-article] {
+#_elev_io .article a[data-elevio-article] *, #_elev_io ._elevio_article_body span[data-elevio-article] {
   color: white!important;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 .article a[data-elevio-article]::after, ._elevio_article_body span[data-elevio-article]::after {
   content: '→';
@@ -40,7 +44,7 @@ body {
   top: 0;
   right: 0;
   position: absolute;
-  width: 20px;
+  width: 30px;
 }
 
 /* () => elevio button  */
