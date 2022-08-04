@@ -16,6 +16,9 @@ body {
 ._elevio_relatedarticles_title, ._elevio_title {
   font-family: var(--amp-font-family-body);
 }
+#elev_io .article .fr-rounded{
+  border-radius: 16px;
+}
 
 /* () => elevio button  */
 .article {
