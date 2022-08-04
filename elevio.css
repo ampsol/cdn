@@ -17,7 +17,7 @@ body {
 .article {
   --amp-color-gradient: linear-gradient(90deg, #557BC7,#48B2B2);
 }
-.article a[data-elevio-article] {
+.article a[data-elevio-article], ._elevio_article_body span[data-elevio-article] {
   text-decoration: none;
   color: white;
   display: inline-flex;
@@ -27,11 +27,11 @@ body {
   position: relative;
   font-family: var(--amp-font-family);
 }
-.article a[data-elevio-article] * {
+.article a[data-elevio-article] *, ._elevio_article_body span[data-elevio-article] {
   color: white!important;
   text-decoration: none;
 }
-.article a[data-elevio-article]::after {
+.article a[data-elevio-article]::after, ._elevio_article_body span[data-elevio-article]::after {
   content: '→';
   display: inline-flex;
   align-items: center;
@@ -42,6 +42,7 @@ body {
   position: absolute;
   width: 20px;
 }
+
 /* () => elevio button  */
 
 /*.kb-nav__details > hr, .kb-nav__details > .kb-nav__details-title {
