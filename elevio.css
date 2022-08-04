@@ -4,6 +4,7 @@
   --amp-font-family: 'Sora', 'Noto Sans Thai', sans-serif!important;
   --amp-font-family-body: 'Sora', Thonburi, Tahoma, sans-serif;
   --amp-color-branded: #06B5B3;
+  --amp-color-gradient: linear-gradient(135deg, #557BC7,#48B2B2);
 }
 h1, h2, h3, h4, h5, h6, ul.kb-sidebar__list, .kb-content-header__details, .kb-footer::after, .kb-nav__button, .kb-search__input, .kb-subcategories__articles-link, p.kb-home__description, kb-category-card__info, .kb-breadcrumbs__link {
   font-family: var(--amp-font-family);
@@ -11,6 +12,38 @@ h1, h2, h3, h4, h5, h6, ul.kb-sidebar__list, .kb-content-header__details, .kb-fo
 body {
   font-family: var(--amp-font-family-body);
 }
+
+/* () => elevio button  */
+.article {
+  --amp-color-gradient: linear-gradient(90deg, #557BC7,#48B2B2);
+}
+.article a[data-elevio-article] {
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+  background: var(--amp-color-gradient);
+  padding: 4px 26px 4px 8px;
+  border-radius: 2px;
+  position: relative;
+  font-family: var(--amp-font-family);
+}
+.article a[data-elevio-article] * {
+  color: white!important;
+  text-decoration: none;
+}
+.article a[data-elevio-article]::after {
+  content: '→';
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  line-height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 20px;
+}
+/* () => elevio button  */
+
 /*.kb-nav__details > hr, .kb-nav__details > .kb-nav__details-title {
   display: none;
 }*/
