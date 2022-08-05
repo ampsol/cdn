@@ -34,11 +34,11 @@ body {
   position: relative;
   font-family: var(--amp-font-family);
 }
-#_elev_io .article a[data-elevio-article] *, #_elev_io ._elevio_article_body span[data-elevio-article] {
+#_elev_io .article li a[data-elevio-article] *, #_elev_io ._elevio_article_body li span[data-elevio-article] {
   color: white!important;
   text-decoration: none!important;
 }
-.article a[data-elevio-article]::after, ._elevio_article_body span[data-elevio-article]::after {
+.article li a[data-elevio-article]::after, ._elevio_article_body li span[data-elevio-article]::after {
   content: '→';
   display: inline-flex;
   align-items: center;
