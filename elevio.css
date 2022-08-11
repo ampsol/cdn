@@ -192,3 +192,10 @@ button[class$="__ExpandedWidget__closeButton"] {
   background-repeat: no-repeat!important;
   background-position: center!important;
 }
+
+.kb-category-card:nth-child(1) .kb-category-card__icon-wrapper::after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDQiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0NCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00MCA0SDRMNCAyNkg0MFY0Wk00IDBDMS43OTA4NiAwIDAgMS43OTA4NiAwIDRWMjZDMCAyOC4yMDkxIDEuNzkwODYgMzAgNCAzMEg0MEM0Mi4yMDkxIDMwIDQ0IDI4LjIwOTEgNDQgMjZWNEM0NCAxLjc5MDg2IDQyLjIwOTEgMCA0MCAwSDRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTIgMzhDMTIgMzYuODk1NCAxMi44OTU0IDM2IDE0IDM2SDMwQzMxLjEwNDYgMzYgMzIgMzYuODk1NCAzMiAzOEMzMiAzOS4xMDQ2IDMxLjEwNDYgNDAgMzAgNDBIMTRDMTIuODk1NCA0MCAxMiAzOS4xMDQ2IDEyIDM4WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIwIDI2SDI0VjQwSDIwVjI2WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)!important;
+  background-size: 24px!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+}
