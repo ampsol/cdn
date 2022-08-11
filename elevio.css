@@ -199,3 +199,10 @@ button[class$="__ExpandedWidget__closeButton"] {
   background-repeat: no-repeat!important;
   background-position: center!important;
 }
+
+
+.kb-main--home .kb-grid {
+  grid-template-columns: repeat(2, 1fr);
+  width: 66%;
+  margin: 0 auto;
+}
