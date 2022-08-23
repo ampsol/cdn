@@ -31,9 +31,24 @@ const includeAppcues = () => {
     };
   }, 1000)
 }
+const includeGA = () => {
+  console.log('GA4 Loaded..')
+  var script = document.createElement('script');
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3NM5DEWG0Q';
+  script.async = true;
+  document.getElementsByTagName('head')[0].appendChild(script);
+  setTimeout(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3NM5DEWG0Q');
+  }, 1000)
+}
 (function() {
   includeHotjar()
   includeSegment()
   includeHeap()
   includeAppcues()
+  includeGA()
 })()
