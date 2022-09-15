@@ -206,3 +206,12 @@ button[class$="__ExpandedWidget__closeButton"] {
   width: 66%;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 768px) {
+  .kb-main--home .kb-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .kb-main--home .kb-grid a {
+    border-radius: 0.5rem;
+  }
+}
