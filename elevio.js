@@ -76,4 +76,5 @@ const includeMarkie = () => {
   includeHeap()
   includeAppcues()
   includeGA()
+  includeMarkie()
 })()
