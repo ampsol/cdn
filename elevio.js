@@ -1,3 +1,13 @@
+const makeid = (length) => {
+    var result           = '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+}
+
 const includeHotjar = () => {
   console.log('Hotjar Loaded..')
   var script = document.createElement('script');
@@ -45,7 +55,22 @@ const includeGA = () => {
     gtag('config', 'G-3NM5DEWG0Q');
   }, 1000)
 }
+
+const includeMarkie = () => {
+  (function (w, d, s, o, f, m, js, fjs) {
+    w["MarkieWidget"] = o;
+    w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments); };
+    (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]); 
+    js.id = o; js.src = f; js.async = 1;
+    fjs.parentNode.insertBefore(js, fjs);
+    w[m] = w[m] || { boot: (u) => w.addEventListener('load', () => w[m].boot(u)) };
+  })(window, document, "script", "mrkw", "https://widget.getmarkie.io", "markie");
+  mrkw("init", "6388c97eaef53ca68b00058c");
+  window.markie.boot(window.uuid);
+  console.log('initate markie with uuid: '+window.uuid)
+}
 (function() {
+  const window.uuid = makeid(32)
   includeHotjar()
   includeSegment()
   includeHeap()
