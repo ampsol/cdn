@@ -215,3 +215,11 @@ button[class$="__ExpandedWidget__closeButton"] {
     border-radius: 0.5rem;
   }
 }
+
+
+/** Markie **/
+.markie-badge.markie-badge-round.markie-badge-default {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
