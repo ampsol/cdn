@@ -70,7 +70,7 @@ const includeMarkie = () => {
   console.log('initate markie with uuid: '+window.uuid)
 }
 (function() {
-  const window.uuid = makeid(32)
+  window.uuid = makeid(32)
   includeHotjar()
   includeSegment()
   includeHeap()
