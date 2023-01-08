@@ -1,0 +1,22 @@
+[aria-labelledby="hs-cmsf-branding__label"] {
+  display: none!important;
+  visibility: hidden!important;
+  opacity: 0!important;
+}
+
+/* Nav Bar */
+.kl-navbar__button > span {
+  position: relative;
+  display: inline-block;
+  padding: 8px 0;
+  text-transform: uppercase;
+}
+.kl-navbar__item--active .kl-navbar__button > span:after {
+  visibility: visible;
+  width: 50%;
+}
+
+hs-cmsf-branding {
+  display: none!important;
+}
+
