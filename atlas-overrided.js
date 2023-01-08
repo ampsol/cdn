@@ -6,6 +6,11 @@ const hideHS = () => {
 const delayHideHS = () => {
   window.addEventListener('load', hideHS)
 }
+const override = () => {
+  const currentYear = document.querySelector('.__override-current-year')
+  currentYear.innerHTML = new Date().getFullYear();
+  currentYear.className += 'overrided';
+}
 (function() {
   delayHideHS()
 })()
