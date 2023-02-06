@@ -8,7 +8,7 @@ const delayHideHS = () => {
 }
 const overrideText = () => {
   const currentYear = document.querySelector('.__override-current-year')
-  currentYear.innerHTML = new Date().getFullYear();
+  currentYear.innerHTML = `©${new Date().getFullYear()}`;
   currentYear.className += 'overrided';
 }
 (function() {
