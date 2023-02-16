@@ -223,3 +223,39 @@ button[class$="__ExpandedWidget__closeButton"] {
   visibility: hidden;
   opacity: 0;
 }
+
+
+/** Article Link Button **/
+.kb-content-body a[data-elevio-article] {
+  background: var(--textLink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, #557BC7,#48B2B2);
+}
+.kb-content-body a[data-elevio-article] > span {
+  color: white;
+  text-decoration: none;
+  font-family: 'Sora', 'Noto Sans Thai', sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  align-items: center;
+  flex-grow: 0;
+  justify-content: space-between;
+}
+
+.kb-content-body a[data-elevio-article] > span::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url('data:image/svg+xml,<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 18.5L12.5 15.45L16.5 18.5L15 13.55L19 10.7H14.1L12.5 5.5L10.9 10.7H6L10 13.55L8.5 18.5ZM12.5 22.5C11.1167 22.5 9.81667 22.2375 8.6 21.7125C7.38333 21.1875 6.325 20.475 5.425 19.575C4.525 18.675 3.8125 17.6167 3.2875 16.4C2.7625 15.1833 2.5 13.8833 2.5 12.5C2.5 11.1167 2.7625 9.81667 3.2875 8.6C3.8125 7.38333 4.525 6.325 5.425 5.425C6.325 4.525 7.38333 3.8125 8.6 3.2875C9.81667 2.7625 11.1167 2.5 12.5 2.5C13.8833 2.5 15.1833 2.7625 16.4 3.2875C17.6167 3.8125 18.675 4.525 19.575 5.425C20.475 6.325 21.1875 7.38333 21.7125 8.6C22.2375 9.81667 22.5 11.1167 22.5 12.5C22.5 13.8833 22.2375 15.1833 21.7125 16.4C21.1875 17.6167 20.475 18.675 19.575 19.575C18.675 20.475 17.6167 21.1875 16.4 21.7125C15.1833 22.2375 13.8833 22.5 12.5 22.5ZM12.5 20.5C14.7333 20.5 16.625 19.725 18.175 18.175C19.725 16.625 20.5 14.7333 20.5 12.5C20.5 10.2667 19.725 8.375 18.175 6.825C16.625 5.275 14.7333 4.5 12.5 4.5C10.2667 4.5 8.375 5.275 6.825 6.825C5.275 8.375 4.5 10.2667 4.5 12.5C4.5 14.7333 5.275 16.625 6.825 18.175C8.375 19.725 10.2667 20.5 12.5 20.5Z" fill="white"/></svg>');
+}
+.kb-content-body a[data-elevio-article] > span::after {
+  content: '→';
+  display: block;
+}
