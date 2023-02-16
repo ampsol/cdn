@@ -234,6 +234,7 @@ button[class$="__ExpandedWidget__closeButton"] {
   padding: 1rem;
   border-radius: 0.5rem;
   background: linear-gradient(135deg, #557BC7,#48B2B2);
+  text-decoration: none;
 }
 .kb-content-body a[data-elevio-article] > span {
   color: white;
