@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600&family=Sora:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Color+Emoji&family=Noto+Sans+Thai:wght@400;600&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
 
 :root {
-  --amp-font-family: 'Sora', 'Noto Sans Thai', sans-serif!important;
-  --amp-font-family-body: 'Sora', Thonburi, Tahoma, sans-serif;
+  --amp-font-family: 'Plus Jakarta Sans', 'Noto Sans Thai', 'Noto Color Emoji', sans-serif!important;
+  --amp-font-family-body: 'Plus Jakarta Sans', Thonburi, Tahoma, 'Noto Color Emoji', sans-serif;
   --amp-color-branded: #06B5B3;
   --amp-color-gradient: linear-gradient(135deg, #557BC7,#48B2B2);
 }
@@ -109,7 +109,7 @@ p.kb-home__description {
 
 h1.kb-home__title {
   font-size: 0;
-  background: url(https://cdn.elev.io/file/uploads/onC5dlkM1msXbBDtlKwXyHGP4-NzyMflNxfew71pMxQ/G1HXYyjBuOVzRePR6_DyvKoJBFgIy-WlwZrRhITss8k/logo-white-wis.png) no-repeat center center;
+  background: url('https://cdn.elev.io/file/uploads/ScRGfUp6n0wPuj9oLWzq1s_khFwVGuTaL3mhZhB-TKA/WpZcuxNyKma4E9_rYW0O2_nu4pwQw_aNpJv8796F5LQ/logo-XmU.png') no-repeat center center;
   background-size: contain;
   line-height: 5rem;
 }
